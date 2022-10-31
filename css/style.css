@@ -21,6 +21,14 @@ a, a:hover{
     background: cover;
     border-bottom: 1px solid #b6b6b6;
 }
+.header-section .fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: url("../images/Rectangle 16.png") center top no-repeat;
+    z-index: 1030;
+}
 .header-section .img-fluid {
     max-width: 90%;
     height: auto;
@@ -73,9 +81,10 @@ a, a:hover{
 .header-section .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
 	color: #8824cd;
 }
+/* banner-section code */
 .thanks {
     width: 100%;
-    padding: 100px 0px;
+    padding: 200px 0px;
     background: url("../images/Rectangle 16.png") center top no-repeat;
     text-align: right;
 }
